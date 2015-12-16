@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
+  root 'static_pages#home'
   get 'static_pages/home'
-
   get 'static_pages/help'
 
   # The priority is based upon order of creation: first created -> highest priority.
@@ -30,7 +30,7 @@ Rails.application.routes.draw do
   #     end
   #   end
 
-  # Example resource route with sub-resources:
+  # example resource route with sub-resources:
   #   resources :products do
   #     resources :comments, :sales
   #     resource :seller
